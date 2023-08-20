@@ -59,80 +59,72 @@
             </li>
           </ul>
         </address>
-        <!-- <div>
         <div>
-          <button type="button" class="menu-open-btn" data-menu-open>
-            <svg class="menu-open-mob" width="32" height="22">
-              <use href="./images/icons.svg#icon-charm_menu-hamburger1"></use>
+              <button type="button" class="menu-open-btn" data-menu-open>
+            <svg class="mob-menu-hamb" width="32" height="22">
+              <use href="./images/icons.svg#icon-menu-hamburger">
+              </use>
             </svg>
           </button>
-        </div>
-        <div class="mob-menu is-hidden" data-menu>
-          <button type="button" class="menu-close-btn" data-menu-close>
-            <svg class="menu-close-mob" width="8" height="8">
-              <use href="./images/icons.svg#icon-close-black-18dp"></use>
-            </svg>
-          </button>
-        </div>
-        <ul class="mob-menu-list list">
+            </div>
+            <div class="mob-menu is-hidden" data-menu>
+              <button type="button" class="menu-close-btn" data-menu-close>
+                <svg class="mob-menu-svg" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black-18dp">
+            </use>
+            </svg>            
+              </button>
+                <ul class="mob-menu-list list">
           <li class="mob-menu-item">
-            <a href="./index.html" class="mob-menu-item-nav current link"
-              >Studio</a
-            >
+            <a href="./index.html" 
+            class="mob-menu-link current link">Studio</a></li>
+          <li class="mob-menu-item"><a  href="./portfolio.html" class="mob-menu-link color link">Portfolio</a>
           </li>
-          <li class="mob-menu-item">
-            <a href="./portfolio.html" class="mob-menu-item-nav link"
-              >Portfolio</a
-            >
+          <li class="mob-menu-item"><a  href="" class="mob-menu-link color link">Contacts</a>
           </li>
-          <li class="mob-menu-item">
-            <a href="" class="mob-menu-item-nav link">Contacts</a>
-          </li>
-        </ul>
-        <ul class="mob-items list">
-          <li class="mob-list-adress">
-            <a href="tel:+110001111111" class="mob-item-address link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-          <li class="mob-list-adress">
-            <a href="mailto:info@devstudio.com" class="mob-mail-address link"
-              >info@devstudio.com</a
-            >
-          </li>
-        </ul>
-        <ul class="mob-team-social list">
-          <li class="mob-team-social-item">
-            <a href="" class="mob-icon-social">
-              <svg class="mob-container-team-icon" width="16" height="16">
-                <use href="./images/icons.svg#icon-instagram-2"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mob-team-social-item">
-            <a href="" class="mob-icon-social">
-              <svg class="mob-container-team-icon" width="16" height="16">
-                <use href="./images/icons.svg#icon-twitter-1"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mob-team-social-item">
-            <a href="" class="mob-icon-social">
-              <svg class="mob-container-team-icon" width="16" height="16">
-                <use href="./images/icons.svg#icon-facebook-1"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mob-team-social-item">
-            <a href="" class="mob-icon-social">
-              <svg class="mob-container-team-icon" width="16" height="16">
-                <use href="./images/icons.svg#icon-linkedin-1"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-        </div> -->
-      </div>
+            </ul>        
+                <ul class="mob-address-list list">
+          <li class="mob-address-item">
+            <a href="tel:+110001111111" class="mob-tel-link link"> +11 (000) 111-11-11</a></li>
+          <li class="mob-address-item">
+            <a href="mailto:info@devstudio.com" class="mob-address-link link">info@devstudio.com</a>
+          </li >
+          </ul>
+                <ul class="mob-social-list list">
+                    <li class="mob-social-item">
+                      <a href="" class="mob-icon-social">
+                        <svg class="mob-social-media" width="24" height="24">
+                          <use href="./images/icons.svg#icon-instagram-mob">
+                          </use>
+                        </svg>
+                      </a>
+                  </li>
+                  <li class="mob-social-item">
+                    <a href="" class="mob-icon-social">
+                      <svg class="mob-social-media" width="24" height="24">
+                        <use href="./images/icons.svg#icon-twitter--footer">
+                        </use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="mob-social-item">
+                  <a href="" class="mob-icon-social">
+                    <svg class="mob-social-media" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook-footer">
+                    </use>
+                  </svg>
+                  </a>
+                </li>
+                <li class="mob-social-item">
+                <a class="mob-icon-social">
+                  <svg class="mob-social-media" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin-footer">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+                </ul>
+                      </div>
     </header>
     <main>
       <section class="service-order">
@@ -429,7 +421,7 @@
         </div>
       </section>
       <section class="clients">
-        <div class="container">
+        <div class="container clients-container">
           <h2 class="clients-main">Customers</h2>
           <ul class="clients-main-list list">
             <li class="clients-main-item">
@@ -543,7 +535,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close-btn" type="button" data-modal-close>
           <svg class="modal-open" width="8" height="8">
@@ -606,6 +598,7 @@
             ></textarea>
           </div>
           <div class="modal-checkbox">
+            <div class="modal-btn-win">
             <input
               type="checkbox"
               id="user-privacy"
@@ -622,9 +615,9 @@
               I accept the terms and conditions of the
               <a href="" class="modal-check-link">Privacy Policy</a></label
             >
-          </div>
-          <button type="submit" class="modal-btn">Send</button>
+            <button type="submit" class="modal-btn">Send</button>
         </form>
+        </div>
       </div>
     </div>
     <script src="./js/modal.js"></script>
