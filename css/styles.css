@@ -377,7 +377,7 @@ address {
   background-position: center;
   background-size: cover;
   padding: 112px 0;
-  max-width: 428px;
+  max-width: 100%;
   margin: auto;
 }
 
@@ -751,6 +751,7 @@ address {
   max-width: 268px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 72px;
 }
 
 .page-footer {
@@ -774,8 +775,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  padding-top: 72px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   text-align: center;
 }
 
@@ -789,6 +789,7 @@ address {
   width: 40px;
   height: 40px;
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .footer-icons {
@@ -815,7 +816,7 @@ address {
 }
 
 .container-subscribe {
-  padding-top: 72px;
+  /* padding-top: 72px; */
 }
 
 .subscribe {
@@ -824,7 +825,7 @@ address {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   text-align: center;
 }
 
@@ -908,7 +909,6 @@ address {
 .modal {
   padding: 72px 16px 24px 16px;
   max-width: 100%;
-  height: 584px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -977,7 +977,7 @@ address {
 }
 
 .modal-input {
-  width: 360px;
+  width: 100%;
   height: 40px;
   background-color: #fff;
   border-radius: 4px;

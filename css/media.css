@@ -51,7 +51,11 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people\ office-tab.jpg);
-    max-width: 768px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -103,18 +107,16 @@
   .footer-text {
     width: 264px;
   }
-  .page-footer {
-    padding-top: 0;
-  }
+
   .footer-container {
+    max-width: 584px;
     display: flex;
     align-items: baseline;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-left: 108px;
   }
   .container-webstudio {
-    padding-right: 24px;
+    margin-right: 24px;
     text-align: left;
   }
   .social {
@@ -196,6 +198,10 @@
       url(../images/people\ office-pc.jpg);
     padding: 188px 0;
     max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -211,7 +217,7 @@
 
   .container {
     max-width: 1158px;
-    padding: 15px;
+    padding: 0 15px;
   }
   .feature {
     padding: 120px 0;
@@ -306,21 +312,19 @@
     max-width: 264px;
   }
 
-  .page-footer {
-    padding-bottom: 0;
-  }
   .container.footer-container {
     max-width: 1158px;
   }
+
   .footer-container {
-    padding: 0 0 100px 0;
     display: flex;
-    align-items: baseline;
     justify-content: center;
+    align-items: baseline;
+    flex-wrap: nowrap;
   }
 
   .container-webstudio {
-    padding-right: 0;
+    margin-right: 0;
   }
 
   .container-social-icon {
